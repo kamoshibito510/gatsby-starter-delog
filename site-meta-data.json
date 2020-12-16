@@ -3,7 +3,7 @@
   "siteUrl": "https://delog-w3layouts.netlify.com/",
   "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
   "home": {
-    "title": "Hello! Gatsby-Blog-World!!",
-    "description": "\n\n1. **NetlifyにGatsbyのスターターをデプロイするリンクをクリック**\n2. **NetlifyとGitHubを連携**\n3. **保存してデプロイ**\n\n   **この３ステップで無料ブログを作成出来ました！**"
+    "title": "Re:30代後半からはじめるエンジニア生活",
+    "description": "\n38歳未経験から独学＋プログラミングスクールを経てSES企業に入社しエンジニアとしての生活をスタートさせた筆者が、業務や日々の学習から学んだあれこれをアウトプットして記憶に定着させようと目論む（自称）テック系ブログです。"
   }
 }
