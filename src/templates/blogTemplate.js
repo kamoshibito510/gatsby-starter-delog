@@ -14,6 +14,12 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:site" content="@Gon387" /> 
+        <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
+        <meta property="og:title" content="記事のタイトル" />
+        <meta property="og:description" content="記事の要約（ディスクリプション）" />
+        <meta property="og:image" content="https://saruwakakun.com/images/example.png" />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
