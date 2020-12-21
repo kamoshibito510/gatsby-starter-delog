@@ -14,6 +14,7 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <meta property="og:type" content="website"/>
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@Gon387" /> 
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
