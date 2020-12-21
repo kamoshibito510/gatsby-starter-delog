@@ -19,7 +19,7 @@ export default function Template({
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
         <meta property="og:title" content="記事のタイトル" />
         <meta property="og:description" content="記事の要約（ディスクリプション）" />
-        <meta property="og:image" content="https://saruwakakun.com/images/example.png" />
+        <meta property="og:image" content="" />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
