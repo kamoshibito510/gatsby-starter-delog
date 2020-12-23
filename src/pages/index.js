@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
 
+
 const IndexPage = ({
   data: {
     site,
@@ -23,9 +24,9 @@ const IndexPage = ({
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@Gon387" /> 
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
-        <meta property="og:title" content="記事のタイトル" /> 
-        <meta property="og:description" content="記事の要約（ディスクリプション）" /> 
-        <meta property="og:image" content="画像のURL" />
+        <meta property="og:title" content="30代後半からはじめるエンジニア生活" /> 
+        <meta property="og:description" content="38歳未経験から独学＋プログラミングスクールを経てSES企業に入社しエンジニアとしての生活をスタートさせた筆者が、業務や日々の学習から学んだあれこれをアウトプットして記憶に定着させようと目論む（自称）テック系ブログです。" /> 
+        <meta property="og:image" content="../images/default_image.png" />
         
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
