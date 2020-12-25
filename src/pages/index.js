@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
-
+import ogp_image from "../images/dev.png";
 
 const IndexPage = ({
   data: {
@@ -17,6 +17,10 @@ const IndexPage = ({
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
 
+    //画像のURLを取得
+  const siteUrl = site.siteMetadata.siteUrl;
+  const defaultImage = `${siteUrl}${ogp_image}`;
+
   return (
     <Layout>
       <Helmet>
@@ -26,7 +30,7 @@ const IndexPage = ({
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
         <meta property="og:title" content="30代後半からはじめるエンジニア生活" /> 
         <meta property="og:description" content="38歳未経験から独学＋プログラミングスクールを経てSES企業に入社しエンジニアとしての生活をスタートさせた筆者が、業務や日々の学習から学んだあれこれをアウトプットして記憶に定着させようと目論む（自称）テック系ブログです。" /> 
-        <meta property="og:image" content="src/images/dev.png" />
+        <meta property="og:image" content="defaultImage" />
         
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
