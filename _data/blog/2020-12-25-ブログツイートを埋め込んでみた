@@ -1,15 +1,11 @@
 ---
 template: BlogPost
-path: /No6
-date: 2020-12-20T12:14:10.503Z
-title: Twitterカード導入
+path: /No10
+date: 2020-12-25T23:40:10.503Z
+title: ブログ記事にツイートを埋め込んでみた
 metaDescription: ''
 ---
-Twitterカードを作成したくなり、
-
-グーグル先生に聞きながら導入しようと四苦八苦しています。
-
-成功したら備忘録を記事にしよう。
+こんな感じ↓↓
 
 <blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ちょっと、いや、だいぶ早いですが明日は仕事納め😊<br>年明けの仕事始めが５日なので、<br>へ？仕事？なにそれ、美味しいの？<br>みたいにならないことを祈ります🌠<a href="https://twitter.com/hashtag/%E9%A7%86%E3%81%91%E5%87%BA%E3%81%97%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2?src=hash&amp;ref_src=twsrc%5Etfw">#駆け出しエンジニア</a></p>&mdash; Gon@エンジニアsince2020 (@Gon387) <a href="https://twitter.com/Gon387/status/1342093169698033665?ref_src=twsrc%5Etfw">December 24, 2020</a></blockquote> 
 
