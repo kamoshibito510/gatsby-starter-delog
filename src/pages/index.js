@@ -4,7 +4,6 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
-import ogp_image from "static/assets/computer_programming_man.png";
 
 const IndexPage = ({
   data: {
@@ -16,10 +15,6 @@ const IndexPage = ({
   const Posts = edges
     .filter(edge => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map(edge => <PostLink key={edge.node.id} post={edge.node} />)
-
-    //画像のURLを取得
-  const siteUrl = site.siteMetadata.siteUrl;
-  const defaultImage = `${siteUrl}${ogp_image}`;
 
   return (
     <Layout>
