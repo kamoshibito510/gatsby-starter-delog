@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import ogp_image from "../images/dev.png";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -10,9 +9,6 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
-  //画像のURLを取得
-  const siteUrl = site.siteMetadata.siteUrl;
-  const defaultImage = `${siteUrl}${ogp_image}`;
     
   return (
     <Layout>
