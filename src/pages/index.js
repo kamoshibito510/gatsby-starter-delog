@@ -20,7 +20,7 @@ const IndexPage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@Gon387" /> 
         <meta property="twitter:image" content="static/assets/computer_programming_man.png" />
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
