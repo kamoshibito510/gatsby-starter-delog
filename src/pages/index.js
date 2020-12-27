@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import HeroHeader from "../components/heroHeader"
-import ogp_image from "../images/dev.png";
+import ogp_image from "static/assets/computer_programming_man.png";
 
 const IndexPage = ({
   data: {
@@ -30,7 +30,7 @@ const IndexPage = ({
         <meta property="og:url" content="https://ecstatic-easley-e04553.netlify.app/" />
         <meta property="og:title" content="30代後半からはじめるエンジニア生活" /> 
         <meta property="og:description" content="38歳未経験から独学＋プログラミングスクールを経てSES企業に入社しエンジニアとしての生活をスタートさせた筆者が、業務や日々の学習から学んだあれこれをアウトプットして記憶に定着させようと目論む（自称）テック系ブログです。" /> 
-        <meta property="og:image" content="https://ecstatic-easley-e04553.netlify.app/static/dev.png" />
+        <meta property="og:image" content="static/assets/computer_programming_man.png" />
         
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
