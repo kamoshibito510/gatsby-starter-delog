@@ -19,7 +19,7 @@ export default function Template({
       </Helmet>
       <div className="blog-post-container">
       <Image
-        fluid={data.markdownRemark.frontmatter.hero.childImageSharp.fluid}
+        fluid={frontmatter.hero}
       />
         <article className="post">
           
