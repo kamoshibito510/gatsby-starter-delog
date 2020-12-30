@@ -2,7 +2,6 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
-import Image from "gatsby-image";
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -18,9 +17,6 @@ export default function Template({
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
-      <Image
-        fluid={frontmatter.hero}
-      />
         <article className="post">
           
           {!frontmatter.thumbnail && (
