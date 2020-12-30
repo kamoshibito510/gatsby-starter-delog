@@ -2,7 +2,6 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
-import Test from "../images/dev.png"
 
 export default ({ children }) => {
   const data = useStaticQuery(
