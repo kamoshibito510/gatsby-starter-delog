@@ -2,6 +2,7 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import Img from 'gatsby-image';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -15,6 +16,7 @@ export default function Template({
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
+        <meta property="og:image" content="https://ecstatic-easley-e04553.netlify.app/src/images/dev.png" />
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
