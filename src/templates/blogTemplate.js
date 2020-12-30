@@ -18,7 +18,6 @@ export default function Template({
       </Helmet>
       <div className="blog-post-container">
         <article className="post">
-          
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
@@ -56,13 +55,6 @@ export const pageQuery = graphql`
         title
         thumbnail
         metaDescription
-        hero {
-          childImageSharp {
-            fluid(maxWidth: 1280) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }

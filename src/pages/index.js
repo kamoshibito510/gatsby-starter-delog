@@ -57,13 +57,6 @@ export const pageQuery = graphql`
             path
             title
             thumbnail
-            hero {
-              childImageSharp {
-                fluid(maxWidth: 1280) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
         }
       }
