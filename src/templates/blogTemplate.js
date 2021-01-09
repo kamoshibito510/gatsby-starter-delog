@@ -2,6 +2,8 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faTwitterSquare} from '@fortawesome/free-brands-svg-icons';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -35,6 +37,11 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
+        <a href="https://twitter.com/Gon387?s=09">
+          <FontAwesomeIcon
+            color="#3eaded"
+            icon={faTwitterSquare} />
+        </a>   
       </div>
     </Layout>
   )
