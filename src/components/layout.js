@@ -31,6 +31,7 @@ export default ({ children }) => {
         <a href="https://twitter.com/Gon387?s=09">
           <FontAwesomeIcon
             color="#3eaded"
+            size="lg"
             icon={faTwitterSquare} />
         </a>   
         <p>&copy; {new Date().getFullYear()} Delog &bull; Crafted with <span role="img" aria-label="love">❤️</span> by <a href="https://w3layouts.com">W3Layouts</a></p>
