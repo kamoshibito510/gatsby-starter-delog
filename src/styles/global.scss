@@ -175,9 +175,9 @@ a {
 }
 .post-thumbnail {
   text-align: center;
-  min-height: 380px;
+  min-height: 100px;
   //background-image: url('/assets/circles-light.png');
-  background-color: var(--featured-bg);
+  background-color: rgb(122, 35, 156);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
