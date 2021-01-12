@@ -28,16 +28,16 @@ module.exports = {
             noInlineHighlight: false,
           },
         },
-        {
-          resolve: 'gatsby-remark-emojis',
-        },
         { //Youtube埋め込み用
           resolve: "gatsby-remark-embed-youtube",
           options: {
             width: 800,
             height: 400
           }
-        },]
+        },
+        {
+          resolve: 'gatsby-remark-emojis',
+        }],
       },
     },
     {
@@ -59,7 +59,7 @@ module.exports = {
         display: `standalone`,
         icon: "src/images/dev.png",
       },
-    }
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`, 
