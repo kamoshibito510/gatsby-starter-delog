@@ -30,7 +30,14 @@ module.exports = {
         },
         {
           resolve: 'gatsby-remark-emojis',
-        }],
+        },
+        { //Youtube埋め込み用
+          resolve: "gatsby-remark-embed-youtube",
+          options: {
+            width: 800,
+            height: 400
+          }
+        },]
       },
     },
     {
@@ -52,14 +59,7 @@ module.exports = {
         display: `standalone`,
         icon: "src/images/dev.png",
       },
-    },
-    { //Youtube埋め込み用
-      resolve: "gatsby-remark-embed-youtube",
-      options: {
-        width: 800,
-        height: 400
-      }
-    },
+    }
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`, 
