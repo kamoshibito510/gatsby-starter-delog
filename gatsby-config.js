@@ -37,7 +37,7 @@ module.exports = {
         },
         {
           resolve: 'gatsby-remark-emojis',
-        }],
+        }]
       },
     },
     {
